@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="200dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/LblNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/nombre"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName">
+    </EditText>
+    <TextView
+        android:id="@+id/LblApellido"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/apellido"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/TxtApellido"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName">
+    </EditText>
+    <TextView
+        android:id="@+id/LblCédula"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/cedula"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/TxtCedula"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:inputType="number">
+    </EditText>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/BtnAceptar"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/aceptar" />
+        <Button
+            android:id="@+id/BtnLimpiar"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/limpiar" />
+
+    </LinearLayout>
+
+</LinearLayout>

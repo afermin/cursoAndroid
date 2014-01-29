@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">pruebaCurso</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="nombre">Escribe tu nombre</string>
+    <string name="apellido">Escribe tu apellido</string>
+    <string name="cedula">Escribe tu cédula</string>
+    <string name="nombreUsuario">Nombre</string>
+    <string name="apellidoUsuario">Apellido</string>
+    <string name="cedulaUsuario">Cédula</string>
+
+
+    <string name="back">Atrás</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="limpiar">Limpiar</string>
+
+
+</resources>
